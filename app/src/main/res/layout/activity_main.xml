@@ -10,7 +10,7 @@
     android:layout_marginLeft="5dp">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonLoanRequest"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginStart="8dp"
@@ -31,7 +31,7 @@
         app:layout_constraintVertical_bias="0.284" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonApprovedLoans"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginStart="8dp"
@@ -41,15 +41,15 @@
         android:background="@drawable/background_card"
         android:text="Approved loans"
         android:textAllCaps="false"
-        app:layout_constraintBottom_toBottomOf="@+id/button"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonLoanRequest"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.416"
-        app:layout_constraintStart_toEndOf="@+id/button"
-        app:layout_constraintTop_toTopOf="@+id/button"
+        app:layout_constraintStart_toEndOf="@+id/buttonLoanRequest"
+        app:layout_constraintTop_toTopOf="@+id/buttonLoanRequest"
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/buttonAccountHolders"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginStart="8dp"
@@ -58,13 +58,13 @@
         android:background="@drawable/background_card"
         android:text="Account holders"
         android:textAllCaps="false"
-        app:layout_constraintEnd_toEndOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="@+id/buttonLoanRequest"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonLoanRequest" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/buttonLogout"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginEnd="8dp"
@@ -72,10 +72,10 @@
         android:background="@drawable/background_card"
         android:text="Logout"
         android:textAllCaps="false"
-        app:layout_constraintBottom_toBottomOf="@+id/button3"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonAccountHolders"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/button2"
-        app:layout_constraintTop_toTopOf="@+id/button3"
+        app:layout_constraintStart_toStartOf="@+id/buttonApprovedLoans"
+        app:layout_constraintTop_toTopOf="@+id/buttonAccountHolders"
         app:layout_constraintVertical_bias="0.0" />
 </android.support.constraint.ConstraintLayout>
